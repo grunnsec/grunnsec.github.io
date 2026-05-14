@@ -72,47 +72,38 @@ permalink: /publications/
 </div>
 {% endif %}
 
+
 <p> &nbsp; </p>
 
 <a name="list"></a>
 <h3 class="sapienza-text">Full List</h3>
 
+<div class="publications-list">
+{% assign prev_year = 1900 %}
+{% for publi in site.data.publist %}
 
+{% if publi.year != prev_year %}
+<div class="year-section">
+  <h4 class="pub-year">{{ publi.year }}</h4>
+  {% assign prev_year = publi.year %}
+</div>
+{% endif %}
 
-<table class="table">
-<tbody>
-	{% assign prev_year = 1900 %}
-	{% for publi in site.data.publist %}
-	<tr>
-		<td>
-			<span class="date">
-				{% if publi.year != prev_year %}
-				<big><strong>{{ publi.year }}</strong></big><br />
-				{% endif %}
-				{% assign prev_year = publi.year %}
-			</span>
-		</td>
-		<td>
-			<span class="paper-title">
-				{{ publi.title }}.
-			</span><br />
-			<span class="authors">
-				{{ publi.authors }}.
-			</span><br />
-			<span class="venuetype">{{ publi.publisher}}</span><span class="venue"></span>. 
-      <br/>
-      {% if publi.link.url  %}<a href="{{ publi.link.url }}">Paper</a>&nbsp;&nbsp;{% endif %}
-      {% if publi.code  %}<a href="{{ publi.code }}">Code</a>&nbsp;&nbsp;{% endif %}
-      {% if publi.bibtex %}<a href="javascript:toggleBibtex('{{ publi.title }}list')">BibTeX</a>&nbsp;&nbsp;
-      {% if publi.blog %}<a href="{{ site.url }}{{ site.baseurl }}/{{ publi.blog }}">Blog Post</a>{% endif %}
-      <div id="bib_{{ publi.title}}list" class="bibtex noshow">
-        <pre>
-        {{publi.bibtex}}
-        </pre>
-      </div>
-      {% endif %}
-		</td>
-	</tr>
-	{% endfor %}
-</tbody>
-</table>
+<div class="publication-entry">
+  <p>
+    <span class="authors">{{ publi.authors }}</span>.
+    "<span class="paper-title">{{ publi.title }}</span>".
+    <span class="venue">{{ publi.publisher }}</span>, {{ publi.year }}.
+    {% if publi.link.url %}<a href="{{ publi.link.url }}">[PDF]</a>{% endif %}
+    {% if publi.code %}<a href="{{ publi.code }}">[Code]</a>{% endif %}
+    {% if publi.bibtex %}<a href="javascript:toggleBibtex('{{ publi.title }}list')">[BibTeX]</a>{% endif %}
+    {% if publi.blog %}<a href="{{ site.url }}{{ site.baseurl }}/{{ publi.blog }}">[Blog]</a>{% endif %}
+  </p>
+  {% if publi.bibtex %}
+  <div id="bib_{{ publi.title }}list" class="bibtex noshow">
+    <pre>{{ publi.bibtex }}</pre>
+  </div>
+  {% endif %}
+</div>
+{% endfor %}
+</div>
