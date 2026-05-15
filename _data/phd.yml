@@ -1,47 +1,27 @@
 - name: Arya Dharmaadi
   photo: dharmaadi.jpg
   info: PhD Student
-  bio: Arya Bio 
+  bio: Arya Bio
   webpage: https://www.rug.nl/staff/arya.dharmaadi/?lang=en
   github: 
   linkedin: Arya Linkedin
   twitter: 
   email: arya.dharmaadi@rug.nl
 
-# - name: Biagio La Rosa
-#   photo: larosa.jpg
-#   info: PhD Student
-#   bio: I am a continuous learner looking for new concepts from different fields and domains — e.g. AI, psychology, astronomy and neuroscience. My research is focused on improving the interpretability of Deep Learning techniques, such as Recurrent Networks or Memory Augmented Neural Networks. I am deeply interested on the connection between memory, learning process and interpretability from both computational and cognitive perspectives. I have a background in computer science and Artificial Intelligence, having a M. Sc. degree in "Artificial Intelligence and Robotics" and a B. Sc. in "Computer Science", both from the Sapienza University.
-#   webpage: https://biagiomattialarosa.github.io/
-#   github: biagiomattialarosa
-#   linkedin: larosabiagio
-#   twitter: larosabiagio
-#   email: larosa@diag.uniroma1.it
-
 - name: Ali Satvaty
   photo: satvaty.jpg
   info: PhD Student
-  bio: Ali Bio   
+  bio: Ali Bio
   webpage: 
   github: 
   linkedin: Ali Linkedin
   twitter: 
   email: a.satvaty@rug.nl
 
-# - name: Alessio Ragno
-#   photo: ragno.jpg
-#   info: PhD Student
-#   bio: I am a Ph.D. student in Artificial Intelligence under the supervision of prof. Roberto Capobianco. I am interested in the application of AI to different scientific fields and I think that Explainable AI could play an essential role for this purpose. My Ph.D. project consists in developing model-specific XAI methods, using a topology-based approach, in order to identify and learn data representations able to provide human-interpretable explanations of the neural network predictions.I have an M.Sc. degree in AI & Robotics and a B.Sc. degree in Computer and Control Engineering. I have also some background in the application of AI to chemistry and drug discovery gained through abroad experience at the University of North Carolina and collaborations with the Pharmaceutical Chemistry and Technology Department at the Sapienza University of Rome.
-#   webpage: https://alessio.ragno.info
-#   github: spideralessio
-#   linkedin: spideralessio
-#   twitter: 
-#   email:
-
 - name: Pablo Sorrentino
   photo: sorrentino.jpg
   info: PhD Student
-  bio: Pablo Bio 
+  bio: Pablo Bio
   webpage: 
   github: 
   linkedin: Pablo Linkedin
@@ -51,13 +31,11 @@
 - name: Marco Marques
   photo: marques.jpeg
   info: PhD Student
-  bio: Marco Bio 
+  bio: Marco Bio
   webpage: 
-  github: 
+  github: mpa139/allanlab
   linkedin: 
   twitter: 
   email: m.a.marques@rug.nl
-
-
 
 

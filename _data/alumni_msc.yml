@@ -1,5 +1,3 @@
-- name: "Thijs Klooster, M.Sc., 'Effectiveness and Scalability of Fuzzing Techniques in CI/CD Pipelines', RUG, 2021"
-- name: "Xiya Duan, M.Sc., 'Property Inference attack against generative adversarial networks', RUG, 2021"
-- name: "Daan Opheikens, M.Sc., 'On the Security of Link Sharing', RUG, 2021"
-- name: "Nivin Pradeep Kumar, M.Sc., 'Blockchain Based Trustworthy Electronic Voting System', RUG, 2021"
-- name: "Loran Oosterhaven, M.Sc., 'Invocation tracing to extract Kotlin language features', RUG, 2020"
+- name: "Thijs Klooster, M.Sc., “Effectiveness and Scalability of Fuzzing Techniques in CI/CD Pipelines”, RUG, 2021"
+- name: "Xiya Duan, M.Sc., “Property Inference attack against generative adversarial networks”, RUG, 2021"
+- name: "Daan Opheikens, M.Sc., “On the Security of Link Sharing”, RUG, 2021"
