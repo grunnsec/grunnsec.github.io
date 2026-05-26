@@ -16,7 +16,9 @@ permalink: /
   <li>fuzz testing of software and systems</li>
   <li>authentication and authorization systems</li>
 </ul>
-  
+
+ Our research rolls around AI, meaning on one side we study security and privacy problems of AI (attacks) and develop solutions (defenses) for them and on the other, we apply AI to cybersecurity problems.
+
  <!-- GrunnSec members are also involved on works in collaboration with other research areas like electronics, exoplanet exploration and industrial robot application. -->
 
 
@@ -37,7 +39,7 @@ permalink: /
     <div class="carousel-inner" markdown="0">
 
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/ai-with-for-security.png" alt="Slide 1" />
+          <img src="{{ "/images/slider/ai-with-for-security.png" | relative_url }}" alt="Slide 1" />
         </div>
     </div>
 

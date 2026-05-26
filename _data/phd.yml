@@ -1,5 +1,5 @@
 - name: Arya Dharmaadi
-  photo: dharmaadi.jpg
+  photo: dharmaadi.jpeg
   info: PhD Student
   bio: Arya Bio
   webpage: https://www.rug.nl/staff/arya.dharmaadi/?lang=en
@@ -19,7 +19,7 @@
   email: a.satvaty@rug.nl
 
 - name: Pablo Sorrentino
-  photo: sorrentino.jpg
+  photo: sorrentino.jpeg
   info: PhD Student
   bio: Pablo Bio
   webpage: 
@@ -33,9 +33,18 @@
   info: PhD Student
   bio: Marco Bio
   webpage: 
-  github: mpa139/allanlab
+  github: 
   linkedin: 
   twitter: 
   email: m.a.marques@rug.nl
 
 
+- name: Mohammed Alghazwi
+  photo: alghazwi.jpg
+  info: PhD Student
+  bio: Mohammed Bio
+  webpage: https://www.rug.nl/staff/arya.dharmaadi/?lang=en
+  github: 
+  linkedin: Mohammed Linkedin
+  twitter: 
+  email: m.a.alghazwi@rug.nl
