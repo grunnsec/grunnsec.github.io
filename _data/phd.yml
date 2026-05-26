@@ -11,7 +11,7 @@
 - name: Ali Satvaty
   photo: satvaty.jpg
   info: PhD Student
-  bio: Ali Bio
+  #bio: Ali Bio
   webpage: 
   github: 
   linkedin: Ali Linkedin
@@ -21,7 +21,7 @@
 - name: Pablo Sorrentino
   photo: sorrentino.jpeg
   info: PhD Student
-  bio: Pablo Bio
+  #bio: Pablo Bio
   webpage: 
   github: 
   linkedin: Pablo Linkedin
@@ -31,7 +31,7 @@
 - name: Marco Marques
   photo: marques.jpeg
   info: PhD Student
-  bio: Marco Bio
+  #bio: Marco Bio
   webpage: 
   github: 
   linkedin: 
@@ -42,7 +42,7 @@
 - name: Mohammed Alghazwi
   photo: alghazwi.jpg
   info: PhD Student
-  bio: Mohammed Bio
+  #bio: Mohammed Bio
   webpage: https://www.rug.nl/staff/arya.dharmaadi/?lang=en
   github: 
   linkedin: Mohammed Linkedin
